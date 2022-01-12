@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&family=Montserrat:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&family=Montserrat:wght@300;400;700&family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&family=Montserrat:wght@300;400;700&family=Neucha&family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Caveat&family=Gloria+Hallelujah&family=Montserrat:wght@300;400;700&family=Neucha&family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Caveat&family=Gloria+Hallelujah&family=Montserrat:wght@300;400;700&family=Neucha&family=Satisfy&family=Zeyada&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Neucha";
+  font-family: "Satisfy";
 }
 
 body {
@@ -17,7 +20,7 @@ section {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f1f1f1;
+  background-color: #a56070;
 }
 
 section .quare {
@@ -49,6 +52,7 @@ section .quare .card {
   align-items: center;
   border-radius: 50%;
   z-index: 1;
+  overflow: hidden;
 }
 
 section .quare .card::before {
@@ -66,6 +70,16 @@ h1 {
   position: absolute;
   z-index: 2;
   font-size: 3em;
-  color: rgb(51 56 111);
+  color: rgb(181 50 98);
   text-align: center;
+}
+
+img {
+  position: relative;
+
+  z-index: 1;
+
+  left: 26%;
+  top: 43%;
+  width: 50%;
 }
