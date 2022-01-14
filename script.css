@@ -16,7 +16,7 @@ section {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #a56070;
+  background-color: #c78696;
 }
 
 section .quare {
@@ -66,23 +66,21 @@ h1 {
   position: absolute;
   z-index: 2;
   font-size: 3em;
-  color: #bb7988;
+  color: #842238;
   text-align: center;
 }
 
 img {
   position: relative;
-
   z-index: 1;
-
-  left: 26%;
-  top: 43%;
+  left: 30%;
+  top: 47%;
   width: 50%;
 }
 
-.stars {
+.stars img {
   position: absolute;
   z-index: 1;
-  top: 4%;
-  right: 20%;
+  top: 3%;
+  left: 3%;
 }
