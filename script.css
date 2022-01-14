@@ -51,6 +51,11 @@ section .quare .card {
   overflow: hidden;
 }
 
+section .quare .card:hover {
+  cursor: pointer;
+  filter: none;
+}
+
 section .quare .card::before {
   content: "";
   position: absolute;
@@ -64,10 +69,11 @@ section .quare .card::before {
 
 h1 {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   font-size: 3em;
   color: #842238;
   text-align: center;
+  filter: grayscale();
 }
 
 img {
@@ -76,6 +82,7 @@ img {
   left: 30%;
   top: 47%;
   width: 50%;
+  filter: grayscale();
 }
 
 .stars img {
@@ -83,4 +90,10 @@ img {
   z-index: 1;
   top: 3%;
   left: 3%;
+}
+section .quare .card:hover img {
+  filter: none;
+}
+section .quare .card:hover h1 {
+  filter: none;
 }
